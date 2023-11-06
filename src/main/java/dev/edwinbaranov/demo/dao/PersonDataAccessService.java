@@ -11,7 +11,6 @@ import org.springframework.stereotype.Repository;
 
 import dev.edwinbaranov.demo.model.Person;
 
-// FAKE REPOSITORY to show example of switching between different repositories
 @Repository("postgres")
 public class PersonDataAccessService implements PersonDao {
 
